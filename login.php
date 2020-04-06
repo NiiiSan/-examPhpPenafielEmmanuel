@@ -8,7 +8,7 @@
 
         $errors = login($pdo, $_POST['log'], $_POST['password']);
         if(empty($errors)){ 
-            header('Location: homepageUser.php');
+            header('Location: Admin.php');
         }
     }
 ?>

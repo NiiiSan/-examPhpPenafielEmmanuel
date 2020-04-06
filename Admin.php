@@ -1,5 +1,6 @@
 <?php
     session_start();
+    
     require_once 'functions/user-functions.php';
     $user = connectedUser();
 ?>
